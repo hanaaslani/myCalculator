@@ -41,18 +41,18 @@ public class Calculator {
         double Result = 0;
         switch (action) {
             case "+":
-                Result = FirstNummber + SecondNummber;
+                System.out.println("your answer is :" + (FirstNummber+SecondNummber));
                 break;
             case "-":
-                Result = FirstNummber - SecondNummber;
+               System.out.println("your answer us : " + (FirstNummber-SecondNummber));
                 break;
             case "*":
-                Result = FirstNummber * SecondNummber;
+                System.out.println("your answer us : " + (FirstNummber*SecondNummber));
                 break;
             case "/":
-                Result = FirstNummber / SecondNummber;
+                System.out.println("your answer us : " + (FirstNummber/SecondNummber));
                 break;
         }
-        System.out.print(Result);
+
     }
 }
